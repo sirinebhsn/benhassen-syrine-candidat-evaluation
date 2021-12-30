@@ -1,0 +1,60 @@
+@import 'https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css';
+@import 'https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css';
+
+
+html, body {
+  align-items: center;
+  background: #f2f4f8;
+  border: 0;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  height: 100%;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+
+.container {
+  display: table;
+  border: 2px black;
+  border-radius: 4px;
+  box-sizing: border-box 1px black;
+      height: 100%;
+  vertical-align: middle;
+  margin: 0 auto;
+} 
+.container form{
+display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 40px;
+  color: white;
+  background: rgba(163, 198, 233, 0.8);
+  border-radius: 10px;
+  box-shadow: 0 0.4px 0.4px rgba(128, 128, 128, 0.109),
+    0 1px 1px rgba(128, 128, 128, 0.155),
+    0 2.1px 2.1px rgba(128, 128, 128, 0.195),
+    0 4.4px 4.4px rgba(128, 128, 128, 0.241),
+    0 12px 12px rgba(128, 128, 128, 0.35);
+
+
+  }
+
+
+.span{
+  color: red;
+}
+.span-color{
+  color: green;
+
+}
+.brand-title {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-weight: 900;
+  font-size: 1.8rem;
+  color: #1DA1F2;
+  letter-spacing: 1px;
+  text-align: center;
+}
